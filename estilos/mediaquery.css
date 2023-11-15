@@ -15,6 +15,7 @@ GRANDES TELAS >1200
     
         display: flex;
         flex-direction: row;
+        justify-content: center;
         
     }
 
@@ -23,49 +24,36 @@ GRANDES TELAS >1200
         height: 390px;
         border: 1px solid;
         border-radius: 20px;
-        
     
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content:space-between;
         box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
         background-color: lightgray;
-        
     }
+    
     #pri{/*itens do container*/
         width: 60%;
-        height: 50%;
-        border: 1px solid;
-        border-radius: 10px 10px 0px 0px;
-        margin-top: 8px;
+        height: 100%;
+        
+        border-radius: 20px 0px 0px 20px;
+        
         background-image: url(../imagem/imgPequena.JPG);
-        background-size: cover;
-        border: none;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
+        background-repeat: no-repeat; 
+        background-position: left bottom;
+        margin-top: 0px;
     }
     form{
         
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
         align-items: center;
-        
-    
-    
         width: 40%;
-        height: 50%;
+        height: 100%;
         background-image: linear-gradient(to top, blue, rgb(71, 69, 69));
+        border-radius: 0px 10px 10px 0px;
         
-    
     }
-    form{
-        display: none;
-    }
+   
     #caixa{
         background-color: rgba(10, 147, 10, 0.706);
     }
@@ -104,29 +92,34 @@ GRANDES TELAS >1200
         box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
         cursor: pointer;
     }
-    
-    
-    #rec{
+   #rec{
     display: none;
+   }
+
+   #estab{
+    display: flex;
     justify-content: center;
     align-items: center;
     
-        width: 95%;
-        height: 10%;
         
-        border-radius: 0px 0px 20px 20px;
-        margin-bottom: 8px;
-        background-color: blue;
+        
+    border-radius: 10px 10px 10px 10px;        
+    background-color:darkgrey;
+    padding: 10px;
             
     }
-    #rec a{
+    #estab a{
         color: white;
         text-decoration: none;
         background-color: grey;
-        padding: 5px;
+        
         border-radius: 3px;
         font-weight: bolder;
     }
+    
+    
+    
+   
     
 }
 

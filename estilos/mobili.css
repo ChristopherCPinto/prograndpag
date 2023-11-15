@@ -121,3 +121,6 @@ align-items: center;
     border-radius: 3px;
     font-weight: bolder;
 }
+#estab{
+        display: none;
+    }
