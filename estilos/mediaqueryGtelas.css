@@ -6,9 +6,7 @@ DESKTOP: 992 - 1200 PX
 GRANDES TELAS >1200
 */
 
-
-
-@media screen and (min-width:768px) and (max-width:992px) {/*TABLET*/
+@media screen and (min-width:1200px)/*GRANDES TELAS*/{
     main{
         width: 100vw;
         height: 100vh;
@@ -17,42 +15,51 @@ GRANDES TELAS >1200
         flex-direction: row;
         justify-content: center;
         
+        
     }
 
     #container{
-        width: 844px;
-        height: 390px;
+        transition: 0.8s;
+        width: 95%;
+        height: 95%;
         border: 1px solid;
         border-radius: 20px;
     
         display: flex;
-        flex-direction: row;
+        flex-direction:column-reverse;
         box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
         background-color: lightgray;
+        padding: 10px;
     }
     
     #pri{/*itens do container*/
-        width: 60%;
-        height: 100%;
         
-        border-radius: 20px 0px 0px 20px;
+        width: 100%;
+        height: 90%;
         
-        background-image: url(../imagem/imgPequena.JPG);
+        border-radius: 0px 0px 20px 20px;
+        
+        background-image: url(../imagem/imgGrande.JPG);
         background-repeat: no-repeat; 
-        background-position: left bottom;
+        background-position: left top;
         margin-top: 0px;
     }
     form{
         
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        width: 40%;
-        height: 100%;
+        width: 100%;
+        height: 10%;
         background-image: linear-gradient(to top, blue, rgb(71, 69, 69));
-        border-radius: 0px 10px 10px 0px;
-        
+        border-radius: 20px 20px 0px 0px;
     }
+    form a{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+   
    
     #caixa{
         background-color: rgba(10, 147, 10, 0.706);
@@ -61,8 +68,8 @@ GRANDES TELAS >1200
         background-color:white;
     }
     input{
-        width: 300px;
-        height: 30px;  
+        width: 150px;
+        height: 40px;  
         border-radius: 5px;
     }
     input::placeholder{
@@ -70,6 +77,7 @@ GRANDES TELAS >1200
         font-weight: bolder;
         text-align: center;
     }
+    
     .bot{
         border-radius: 10px;
     }
@@ -92,6 +100,16 @@ GRANDES TELAS >1200
         box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
         cursor: pointer;
     }
+
+#enviar:hover{
+    background-color:rgb(118, 180, 26);
+    transition: 0.5s;
+}
+#limpar:hover{
+    background-color:rgb(241, 56, 56);
+    transition: 0.5s;
+}
+
    #rec{
     display: none;
    }
@@ -100,26 +118,19 @@ GRANDES TELAS >1200
     display: flex;
     justify-content: center;
     align-items: center;
-    
-        
-        
     border-radius: 10px 10px 10px 10px;        
-    background-color:darkgrey;
+    background-color:rgb(85, 83, 83);
     padding: 10px;
-            
+                
+    }
+
+    #estab:hover{
+        background-color:black;
     }
     #estab a{
         color: white;
         text-decoration: none;
-        background-color: grey;
-        
-        border-radius: 3px;
         font-weight: bolder;
     }
-    
-    
-    
-   
-    
-}
 
+}

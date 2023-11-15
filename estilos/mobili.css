@@ -17,8 +17,9 @@ main{
 }
 
 #container{
-    width: 390px;
-    height: 844px;
+    transition: 0.8s;
+    width: 375px;
+    height: 667px;
     border: 1px solid;
     border-radius: 20px;
     

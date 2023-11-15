@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*
+TABLET: 768 - 992 PX
+DESKTOP: 992 - 1200 PX
+GRANDES TELAS >1200
+*/
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {/*TABLET*/
+    main{
+        width: 100vw;
+        height: 100vh;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    }
+
+    #container{
+        transition: 0.8s;
+        width: 844px;
+        height: 390px;
+        border: 1px solid;
+        border-radius: 20px;
+    
+        display: flex;
+        flex-direction: row;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
+        background-color: lightgray;
+        padding: 10px;
+    }
+    
+    #pri{/*itens do container*/
+        width: 60%;
+        height: 100%;
+        
+        border-radius: 20px 0px 0px 20px;
+        
+        background-image: url(../imagem/imgPequena.JPG);
+        background-repeat: no-repeat; 
+        background-position: left bottom;
+        margin-top: 0px;
+        background-size: contain;
+        background-size: cover;
+    }
+    form{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+        background-image: linear-gradient(to top, blue, rgb(71, 69, 69));
+        border-radius: 0px 20px 20px 0px;
+        
+    }
+   
+    #caixa{
+        background-color: rgba(10, 147, 10, 0.706);
+    }
+    #caixa:focus{
+        background-color:white;
+    }
+    input{
+        width: 300px;
+        height: 30px;  
+        border-radius: 5px;
+    }
+    input::placeholder{
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .bot{
+        border-radius: 10px;
+    }
+    #enviar{
+        background-color: rgb(6, 117, 6);
+        color: white;
+        font-size: 1.2em;
+        font-weight: bolder;
+        border: none;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
+        cursor: pointer;
+    }
+    #enviar:hover{
+        transition: 0.8s;
+        background-color: greenyellow;
+        color: black;
+    }
+    
+    #limpar{
+        background-color: rgb(239, 24, 24);
+        color: white;
+        font-size: 1.2em;
+        font-weight: bolder;
+        border: none;
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
+        cursor: pointer;
+    }
+    #limpar:hover{
+        transition: 0.8s;
+        background-color: rgb(255, 120, 47);
+        color: black;
+    }
+   #rec{
+    display: none;
+   }
+
+   #estab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;        
+    background-color: black;
+    padding: 10px;
+            
+    }
+   
+    form a{
+        text-decoration: none;
+        color: white;
+        border-radius: 3px;
+        font-weight: bolder;
+        
+    }
+
+    #estab:hover{
+        transition: 0.8s;
+        background-color:rgb(50, 46, 46);
+    }
+    
+    
+    
+   
+    
+}
+
