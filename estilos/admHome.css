@@ -1,0 +1,59 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+header{
+    width: 375px;
+    height: 667px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cabecalho{
+    background-color: aqua;
+    width: 95%;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px ;
+}
+
+#burguer{
+    cursor: pointer;
+}
+#itens ul{
+    list-style-type: none;
+    margin: 5px;
+}
+#itens ul li{
+    background-color: black;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#itens {
+    text-decoration: none;
+    width: 95%;
+    height: 120px;
+    border-radius: 8px;        
+}
+#itens a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    
+}

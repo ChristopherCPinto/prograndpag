@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+TABLET: 768 - 992 PX
+DESKTOP: 992 - 1200 PX
+GRANDES TELAS >1200
+*/
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {/*TABLET*/
+   body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkgrey;
+
+   }
+   header{
+    width: 900px;
+    height: 600px;background-color: white;
+    border-radius: 20px;
+    justify-content: flex-start;
+   }
+   #burguer{
+    display: none;
+   }
+   menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+   }
+   menu ul li{
+    width: 150px;
+    
+   }
+   menu ul li {    
+    text-align: center;
+   }
+}
+
