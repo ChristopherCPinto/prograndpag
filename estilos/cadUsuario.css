@@ -12,7 +12,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(249, 230, 208);
+    background-image: linear-gradient(to top, blue, lightskyblue);
 
 
 }
@@ -30,13 +30,13 @@ main{
     align-items: center;
     justify-content:space-between;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.814);
-    background-color: lightgray;
+    background-color: white;
     border: none;
 }
 
 #titulo{
     background-color: cadetblue;    
-    border-radius: 10px;
+    border-radius: 20px 20px;
     margin-top: 5px;
     width: 98%;
     height: 9%;
@@ -58,11 +58,54 @@ form{
     height: 85%;
     margin-bottom: 5%;
     border-radius: 0px 0px 20px 20px;
-    background-color:lightskyblue;
+    background-color: rgb(120, 117, 117);
     padding: 8px;
 
 }
 .caixa{
     height: 35px;
     border-radius: 5px;
+}
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 5px;
+    
+    
+
+    
+}
+#botoes a{
+    
+    width: 100px;
+    height: 30px;
+    background-color:grey;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px white;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+
+    
+}
+.botenvi, .botrest{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    margin-right: 2px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+
+}
+.botenvi{
+    background-color: green;
+    height: 30px;
+    border-radius: 8px;
 }

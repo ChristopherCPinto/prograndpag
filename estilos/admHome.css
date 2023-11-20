@@ -9,6 +9,8 @@ body{
 display: flex;
 flex-direction: column;
 align-items: center;
+background-image: linear-gradient(to top, blue, lightskyblue);
+font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -19,16 +21,19 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    background-color: white;
 }
 #cabecalho{
-    background-color: aqua;
+    background-color: cadetblue;   
     width: 95%;
     height:50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 10px 10px ;
+    border-radius: 20px 20px ;
+    margin-top: 10px;
 }
 
 #burguer{
@@ -39,7 +44,7 @@ header{
     margin: 5px;
 }
 #itens ul li{
-    background-color: black;
+    background-color: rgb(114, 110, 110);
     margin-top: 2px;
     padding: 5px;
     border-radius: 8px;
@@ -54,6 +59,8 @@ header{
 #itens a{
     color: white;
     text-decoration: none;
-    background-color: black;
+    font-size: 1.2em;
+    margin-left: 7px;
+    font-weight: bolder;
     
 }
