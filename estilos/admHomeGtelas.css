@@ -10,6 +10,7 @@ GRANDES TELAS >1200
 
 @media screen and (min-width:1200px) {/*TABLET*/
    body{
+    
     margin: 0px;
     padding: 0px;
     display: flex;
@@ -19,11 +20,14 @@ GRANDES TELAS >1200
 
    }
    header{
+    transition: 0.8s;
     width: 1200px;
     height: 980px;background-color: white;
     border-radius: 20px;
-    justify-content: flex-start;
+    
    }
+
+   
    #burguer{
     display: none;
    }
@@ -33,13 +37,21 @@ GRANDES TELAS >1200
     justify-content: space-around;
     
     
-   }
-   menu ul li{
-    width: 150px;
+    
     
    }
+  
    menu ul li {    
-    text-align: center;
+    
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   #sair:hover{
+    color: red;
+
    }
 }
 

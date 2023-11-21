@@ -19,6 +19,7 @@ GRANDES TELAS >1200
 
    }
    header{
+    transition: 0.8s;
     width: 900px;
     height: 600px;background-color: white;
     border-radius: 20px;

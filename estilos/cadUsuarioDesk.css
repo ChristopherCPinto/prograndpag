@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*
+TABLET: 768 - 992 PX
+DESKTOP: 992 - 1200 PX
+GRANDES TELAS >1200
+*/
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {/*DESKTOP*/
+
+    main{
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+    }
+    
+    #container{
+        transition: 0.8s;
+        width: 900px;
+        height: 500px;
+    }
+    
+   
+   
+   
+   
+    
+   
+}
