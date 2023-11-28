@@ -1,4 +1,9 @@
 @charset "UTF-8";
+:root{
+    --cabcalho:#244BDB;
+    --titulos:white;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -26,7 +31,7 @@ header{
     background-color: white;
 }
 #cabecalho{
-    background-color: cadetblue;   
+    background-color:var(--cabcalho);   
     width: 95%;
     height:50px;
     display: flex;
